@@ -28,7 +28,7 @@ $ php composer.phar require aayaresko/yii2-widget-maskedinputdatepicker "*"
 Выполнить загрузку необходимых компонентов и подготовить виджет
 
 ```php
-use aayaresko\MaskedInputDatePicker
+use aayaresko\date\MaskedInputDatePicker
 echo MaskedInputDatePicker::widget([
     'enableMaskedInput' => true,
     'maskedInputOptions' => [
