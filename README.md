@@ -1,7 +1,7 @@
 # yii2-widget-maskedinputdatepicker
 Implements MaskedInput jquery plugin in conjunction with DatePicker jquery plugin
 
-## Widget MaskedInput in Conjunction with DatePicker (jquery plugins).
+## Widget MaskedInput in Conjunction with DatePicker (using jquery plugins).
 
 Зависимо от передаваемой в качестве параметра массива maskedInputOptions['mask'] создаст
 DatePicker field с MaskedInput (параметр enableMaskedInput)
