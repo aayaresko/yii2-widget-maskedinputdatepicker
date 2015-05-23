@@ -31,8 +31,8 @@
         "kartik-v/yii2-widget-datepicker": "*"
     },
     "autoload": {
-        "psr-0": {
-            "aayaresko\\date\\": "src/"
+        "psr-4": {
+            "aayaresko\\date\\": ""
         }
     }
 }
