@@ -3,7 +3,7 @@ Implements MaskedInput jquery plugin in conjunction with DatePicker jquery plugi
 
 ## Widget MaskedInput in Conjunction with DatePicker (jquery plugins).
 
-Зависимо от передаваемой в качестве параметра массива maskedInputOptions['mask'] и параметра создаст
+Зависимо от передаваемой в качестве параметра массива maskedInputOptions['mask'] создаст
 DatePicker field с MaskedInput (параметр enableMaskedInput, по умолчанию - false)
 
 ## Установка
