@@ -16,7 +16,7 @@
         "jquery",
         "plugin"
     ],
-    "homepage": "https://github.com/aayaresko/yii2-widget-timer",
+    "homepage": "https://github.com/aayaresko/yii2-widget-maskedinputdatepicker",
     "type": "yii2-extension",
     "license": "BSD 3-Clause License",
     "authors": [
