@@ -46,7 +46,7 @@ class MaskedInputDatePicker extends DatePicker
         $this->pluginEvents = isset($this->maskedInputOptions['pluginEvents']) ? $this->maskedInputOptions['pluginEvents'] : [];
 
         if(isset($this->maskedInputOptions['mask'])) {
-            $this->maskedInputOptions['pluginOptions']['mask'] = $this->maskedInputOptions['mask'];
+            $this->pluginOptions = $this->maskedInputOptions['mask'];
         }
 
     }
@@ -69,8 +69,8 @@ class MaskedInputDatePicker extends DatePicker
      */
     public function registerClientScript()
     {
-        $id = "jQuery('#" . $this->options['id'] . "')";
+        $element = "jQuery('#" . $this->options['id'] . "')";
         MaskedInputAsset::register($this->getView());
-        $this->registerPlugin('inputmask', $id);
+        $this->registerPlugin('inputmask', $element);
     }
 }
