@@ -11,6 +11,7 @@
         "date",
         "mask",
         "picker",
+        "input",
         "jquery",
         "plugin"
     ],
