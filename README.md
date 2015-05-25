@@ -33,6 +33,9 @@ echo MaskedInputDatePicker::widget([
     'enableMaskedInput' => true,
     'maskedInputOptions' => [
         'mask' => '99.99.9999',
+        'pluginEvents' => [
+            'complete' => "function(){console.log('complete');}"
+        ]
     ],
     'name' => 'dp_3',
     'type' => MaskedInputDatePicker::TYPE_COMPONENT_APPEND,
