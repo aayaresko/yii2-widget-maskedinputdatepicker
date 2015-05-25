@@ -43,7 +43,7 @@ class MaskedInputDatePicker extends DatePicker
         parent::init();
 
         $this->pluginOptions = isset($this->maskedInputOptions['pluginOptions']) ? $this->maskedInputOptions['pluginOptions'] : [];
-        $this->pluginOptions = isset($this->maskedInputOptions['pluginEvents']) ? $this->maskedInputOptions['pluginEvents'] : [];
+        $this->pluginEvents = isset($this->maskedInputOptions['pluginEvents']) ? $this->maskedInputOptions['pluginEvents'] : [];
 
         if(isset($this->maskedInputOptions['mask'])) {
             $this->maskedInputOptions['pluginOptions']['mask'] = $this->maskedInputOptions['mask'];
