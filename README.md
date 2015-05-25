@@ -55,9 +55,9 @@ echo MaskedInputDatePicker::widget([
 Конфигурация plugin осуществляется через параметры:
 * enableMaskedInput - использовать MaskedInput (по умолчанию false - не использовать)
 * maskedInputOptions - массив параметров, передаваемых в качестве настроек inputmask jquery plugin, должен включать в себя вложенные массивы:
-** 'pluginOptions' - непосредственно настройки jquery plugin;
-** 'pluginEvents' (события, обрабатываемые jquery plugin);
-** 'mask' - маска вводимых значений
+    * 'pluginOptions' - непосредственно настройки jquery plugin;
+    * 'pluginEvents' (события, обрабатываемые jquery plugin);
+    * 'mask' - маска вводимых значений
 
 ## License
 **yii2-widget-maskedinputdatepicker** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
