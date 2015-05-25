@@ -29,7 +29,7 @@ use yii\widgets\MaskedInputAsset;
 class MaskedInputDatePicker extends DatePicker
 {
 
-    public $enableMaskedInput;
+    public $enableMaskedInput = false;
     public $maskedInputOptions;
 
     /**
@@ -42,21 +42,13 @@ class MaskedInputDatePicker extends DatePicker
     {
         parent::init();
 
+        $this->pluginOptions = isset($this->maskedInputOptions['pluginOptions']) ? $this->maskedInputOptions['pluginOptions'] : [];
+        $this->pluginOptions = isset($this->maskedInputOptions['pluginEvents']) ? $this->maskedInputOptions['pluginEvents'] : [];
+
         if(isset($this->maskedInputOptions['mask'])) {
             $this->maskedInputOptions['pluginOptions']['mask'] = $this->maskedInputOptions['mask'];
         }
 
-        if(isset($this->maskedInputOptions['pluginOptions'])){
-            $this->pluginOptions = $this->maskedInputOptions['pluginOptions'];
-        }
-
-        if(isset($this->maskedInputOptions['pluginEvents'])) {
-            $this->pluginOptions = $this->maskedInputOptions['pluginEvents'];
-        }
-
-        if(!isset($this->enableMaskedInput)){
-            $this->enableMaskedInput = false;
-        }
     }
 
     /**
