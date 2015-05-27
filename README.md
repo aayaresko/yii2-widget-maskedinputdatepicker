@@ -59,7 +59,7 @@ echo MaskedInputDatePicker::widget([
 * enableMaskedInput - использовать InputMask (по умолчанию false - не использовать)
 * maskedInputOptions - массив параметров, передаваемых в качестве настроек inputmask jquery plugin, должен включать в себя вложенные массивы:
     * 'pluginOptions' - непосредственно настройки jquery plugin;
-    * 'pluginEvents' (события, обрабатываемые jquery plugin);
+    * 'pluginEvents' - (события, обрабатываемые jquery plugin);
     * 'mask' - маска вводимых значений
 
 ## License
