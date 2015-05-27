@@ -57,6 +57,7 @@ class MaskedInputDatePicker extends DatePicker
     /**
      * выполнит настройку параметров widget.
      *
+     * @inheritdoc
      */
     public function init()
     {
