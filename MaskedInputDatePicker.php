@@ -29,7 +29,29 @@ use yii\widgets\MaskedInputAsset;
 class MaskedInputDatePicker extends DatePicker
 {
 
+    /**
+     * включить или нет inputmask для данного поля
+     * @var bool
+     */
     public $enableMaskedInput = false;
+    /**
+     * параметры inputmask jquery plugin
+     * свойства передавать в виде вложенного массива 'pluginOptions'
+     * события передавать в виде вложенного массива 'pluginEvents'
+     * формат маски в виде значения элемента массива 'mask'
+     * пример:
+     * $maskedInputOptions = [
+     *      'mask' => '99.99.9999',
+     *      'pluginOptions' => [
+     *      ],
+     *      'pluginEvents' => [
+     *          'complete' => "function(){console.log('complete');}"
+     *      ],
+     * ]
+     * @see https://github.com/RobinHerbots/jquery.inputmask 
+     * Важно! события необходимо указывать без префикса 'on' (i.e 'onComplete' => 'complete')
+     * @var array
+     */
     public $maskedInputOptions;
 
     /**
