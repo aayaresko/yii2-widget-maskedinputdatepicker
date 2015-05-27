@@ -79,8 +79,8 @@ class MaskedInputDatePicker extends DatePicker
      */
     public function run()
     {
+        parent::run();
         if($this->enableMaskedInput) {
-            parent::run();
             $this->registerClientScript();
         }
     }
