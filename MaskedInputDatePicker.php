@@ -23,8 +23,8 @@ use yii\widgets\MaskedInputAsset;
  * Class MaskedInputDatePicker
  * @package yii\widgets
  * @author aayareko <aayaresko@gmail.com>
- * @see http://www.yiiframework.com/doc-2.0/yii-widgets-maskedinput.html
- * @see http://demos.krajee.com/widget-details/datepicker
+ * @see https://github.com/RobinHerbots/jquery.inputmask
+ * @see https://github.com/kartik-v/yii2-widget-datepicker
  */
 class MaskedInputDatePicker extends DatePicker
 {
