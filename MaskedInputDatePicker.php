@@ -57,8 +57,6 @@ class MaskedInputDatePicker extends DatePicker
     /**
      * выполнит настройку параметров widget.
      *
-     * все свойства наследуются от родительского widget (DatePicker).
-     *
      */
     public function init()
     {
@@ -88,6 +86,7 @@ class MaskedInputDatePicker extends DatePicker
 
     /**
      * регистрирует необходимые скрипты для работы maskedInput jquery plugin.
+     * 
      */
     public function registerClientScript()
     {
