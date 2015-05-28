@@ -88,11 +88,17 @@ class MaskedInputDatePicker extends DatePicker
     /**
      * регистрирует необходимые скрипты для работы maskedInput jquery plugin.
      * 
+     * если используется range date picker - маска будет применена и для второго поля.
+     * 
      */
     public function registerClientScript()
     {
         $element = "jQuery('#" . $this->options['id'] . "')";
         MaskedInputAsset::register($this->getView());
         $this->registerPlugin('inputmask', $element);
+        if($this->options2['id']){
+            $element2 = "jQuery('#" . $this->options2['id'] . "')";
+            $this->registerPlugin('inputmask', $element2);
+        }
     }
 }
