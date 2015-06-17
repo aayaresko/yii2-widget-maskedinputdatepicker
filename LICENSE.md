@@ -1,4 +1,4 @@
-Copyright (c) 2014 - 2015, Andrej Jaresko
+Copyright (c) 2015, Andrej Jaresko (aayaresko)
 All rights reserved.  
 
 Redistribution and use in source and binary forms, with or without modification,
@@ -11,7 +11,7 @@ are permitted provided that the following conditions are met:
   list of conditions and the following disclaimer in the documentation and/or
   other materials provided with the distribution.
 
-* Neither the names of Andrej Jaresko or aayaresko nor the names of its
+* Neither the names of yii2-widget-maskedinputdatepicker nor the names of its
   contributors may be used to endorse or promote products derived from
   this software without specific prior written permission.
 
