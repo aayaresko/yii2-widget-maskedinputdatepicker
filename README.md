@@ -7,7 +7,7 @@ Creates a DatePicker field with InputMask in specified via maskedInputOptions['m
 
 ## Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json) for this extension's requirements and dependencies.
+The preferred way to install extension is via [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
 
