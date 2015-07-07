@@ -3,7 +3,7 @@ Implements inputMask jquery plugin in conjunction with DatePicker jquery plugin
 
 ## Widget InputMask in Conjunction with DatePicker (using jquery plugins).
 
-Creates a DatePicker field with InputMask in specified format (parameter of array maskedInputOptions['mask']) .
+Creates a DatePicker field with InputMask in specified via parameter of array maskedInputOptions['mask'] format.
 
 ## Installation
 
