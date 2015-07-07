@@ -62,4 +62,4 @@ echo MaskedInputDatePicker::widget([
     * 'mask' - маска вводимых значений
 
 ## License
-**yii2-widget-maskedinputdatepicker** реализован под лицензией BSD 3-Clause. Подробнеес смотри `LICENSE.md`.
+**yii2-widget-maskedinputdatepicker** выпущен и распространяется согласно лицензией BSD 3-Clause. Подробнеес смотри `LICENSE.md`.
