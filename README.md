@@ -30,7 +30,6 @@ Upload all necessary components and prepare widet
 ```php
 use aayaresko\date\MaskedInputDatePicker
 ```
-
 ```php
 echo MaskedInputDatePicker::widget([
     'enableMaskedInput' => true,
@@ -51,7 +50,7 @@ echo MaskedInputDatePicker::widget([
 ```
 
 ## Important
-Values of fields ``format`` and ``value`` and ``mask`` must be the same
+Values of fields ``format``, ``value`` and ``mask`` must be the same
 
 Configure plugin via parameters:
 * enableMaskedInput - whether to use InputMask or not (default false - do not use)
