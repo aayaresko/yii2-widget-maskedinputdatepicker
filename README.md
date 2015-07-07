@@ -1,33 +1,31 @@
 # yii2-widget-maskedinputdatepicker
 Implements inputMask jquery plugin in conjunction with DatePicker jquery plugin
 
-Реализует InputMask jquery plugin совместно с DatePicker jquery plugin
-
 ## Widget InputMask in Conjunction with DatePicker (using jquery plugins).
 
-Зависимо от передаваемой InputMask (параметр массива maskedInputOptions['mask']) создаст
-DatePicker field с маской в указанном формате.
+Creates a DatePicker field with InputMask in specified format (parameter of array maskedInputOptions['mask']) .
 
-## Установка
+## Installation
 
-Предпочтительный способ установки через [composer](http://getcomposer.org/download/). Ознакомьтесь с требовния расширения и его зависимостями в [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json).
-Для установки выполните
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json) for this extension's requirements and dependencies.
+
+To install, either run
 
 ```
 $ php composer.phar require aayaresko/yii2-widget-maskedinputdatepicker "*"
 ```
 
-или добавьте
+or add
 
 ```
 "aayaresko/yii2-widget-maskedinputdatepicker": "*"
 ```
 
-в секцию ```require``` вашего `composer.json`.
+to the ```require``` section of your `composer.json`.
 
-## Использование
+## Usage
 
-Выполнить загрузку необходимых компонентов и подготовить виджет
+Upload all necessary components and prepare widet
 
 ```php
 use aayaresko\date\MaskedInputDatePicker
@@ -52,15 +50,15 @@ echo MaskedInputDatePicker::widget([
 ]);
 ```
 
-## Важно 
-Значение полей format и value должны соответствовать маске, указанной в параметре mask
+## Important
+Values of fields ``format`` and ``value`` and ``mask`` must be the same
 
-Конфигурация plugin осуществляется через параметры:
-* enableMaskedInput - использовать InputMask (по умолчанию false - не использовать)
-* maskedInputOptions - массив параметров, передаваемых в качестве настроек inputmask jquery plugin, должен включать в себя вложенные массивы:
-    * 'pluginOptions' - непосредственно настройки jquery plugin;
-    * 'pluginEvents' - события, обрабатываемые jquery plugin;
-    * 'mask' - маска вводимых значений
+Configure plugin via parameters:
+* enableMaskedInput - whether to use InputMask or not (default false - do not use)
+* maskedInputOptions - inputmask jquery plugin configuration parameters, it must contain the arrays:
+    * 'pluginOptions' - jquery plugin settings;
+    * 'pluginEvents' - jquery plugin events;
+    * 'mask' - input mask.
 
 ## License
 **yii2-widget-maskedinputdatepicker** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
