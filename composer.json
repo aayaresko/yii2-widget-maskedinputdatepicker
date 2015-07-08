@@ -24,6 +24,7 @@
             "email": "aayaresko@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
         "kartik-v/yii2-widget-datepicker": "dev-master"
