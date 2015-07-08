@@ -10,17 +10,13 @@ Creates a DatePicker field with InputMask in specified via maskedInputOptions['m
 The preferred way to install extension is via [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
-
 ```
 $ php composer.phar require aayaresko/yii2-widget-maskedinputdatepicker "*"
 ```
-
 or add
-
 ```
 "aayaresko/yii2-widget-maskedinputdatepicker": "*"
 ```
-
 to the ```require``` section of your `composer.json`.
 
 ## Usage
