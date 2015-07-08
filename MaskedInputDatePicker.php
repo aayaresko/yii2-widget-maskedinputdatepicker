@@ -6,7 +6,6 @@
  * Time: 11:45
  *
  * @copyright Copyright &copy; Andrej Jaresko, disbalans.net, 2015
- * @package yii2-widgets
  * @subpackage yii2-widget-maskedinputdatepicker
  */
 
@@ -17,11 +16,10 @@ use yii\widgets\MaskedInputAsset;
 
 /**
  * позволяет использовать inputmask jquery plugin совметсно с datepicker jquery plugin.
- *
+ * 
  * все методы выполняются согласно логике widgetTrait из пакета @see https://github.com/kartik-v/yii2-krajee-base .
  *
  * Class MaskedInputDatePicker
- * @package yii\widgets
  * @author aayareko <aayaresko@gmail.com>
  * @see https://github.com/RobinHerbots/jquery.inputmask
  * @see https://github.com/kartik-v/yii2-widget-datepicker
