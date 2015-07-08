@@ -22,7 +22,6 @@ to the ```require``` section of your `composer.json`.
 ## Usage
 
 Upload all necessary components and prepare widget
-
 ```php
 use aayaresko\date\MaskedInputDatePicker
 ```
