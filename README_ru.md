@@ -9,18 +9,15 @@
 ## Установка
 
 Предпочтительный способ установки через [composer](http://getcomposer.org/download/). Ознакомьтесь с требовния расширения и его зависимостями в [composer.json](https://github.com/aayaresko/yii2-widget-maskedinputdatepicker/blob/master/composer.json).
-Для установки выполните
 
+Для установки выполните
 ```
 $ php composer.phar require aayaresko/yii2-widget-maskedinputdatepicker "*"
 ```
-
 или добавьте
-
 ```
 "aayaresko/yii2-widget-maskedinputdatepicker": "*"
 ```
-
 в секцию ```require``` вашего `composer.json`.
 
 ## Использование
