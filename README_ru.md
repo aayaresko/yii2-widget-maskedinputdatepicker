@@ -4,8 +4,7 @@
 
 ## Widget InputMask совмещённый с DatePicker
 
-Зависимо от передаваемой InputMask (параметр массива maskedInputOptions['mask']) создаст
-DatePicker field с маской в указанном формате.
+Создаст DatePicker field c добавлением InputMask в указанном формате (параметр массива maskedInputOptions['mask']).
 
 ## Установка
 
